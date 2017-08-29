@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/ScanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start_Scan"/>
+    <Button
+        android:id="@+id/StopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop_Scan_Connect"/>
+    <TextView
+        android:id="@+id/SupportBLE_Adv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Support"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:gravity="center"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

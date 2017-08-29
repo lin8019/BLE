@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BluetoothLowEnergy</string>
+    <string name="ble_not_supported">此裝置不支援 BluetoothLowEnergy</string>
+</resources>
